@@ -1,0 +1,258 @@
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&subset=cyrillic,cyrillic-ext,greek,latin-ext,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+#container {
+	width: 100%;
+}
+#container-inner {
+	width: 80%;
+	margin: 0 auto;
+}
+ul li {
+	margin-right: 30px;
+	display: inline;
+	text-decoration: none;
+}
+#logo {
+	font-family: 'Press Start 2P', cursive;
+	margin-top: 10px;
+	font-size: 45px;
+}
+#logo a {
+	font-family: 'Press Start 2P', cursive;
+}
+#head {
+	height: 90px;
+	margin-bottom: 15px;
+}
+#menu {
+	float: right;
+}
+#content {
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 0 auto;
+}
+.post_cont {
+	color: #f04e41;
+	font-size: 12px;
+	float: right;
+	margin-top: 7px;
+}
+a.dell {
+	color: #f04e41;
+}
+a.reddd {
+	color: #4c5ea8;
+}
+.post_inner {
+	padding: 7px;
+	border-radius: 10px;
+	background-color: #ececec;
+}
+.post_content {
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: justify;
+	margin-bottom: 3px;
+}
+.titl {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+.titl a {
+	font-weight: bold;
+	color: #4aa852;
+}
+.post_date {
+	font-size: 14px;
+	font-weight: bold;
+}
+.post_title {
+	font-family: 'Comfortaa', cursive;
+	text-align: center;
+	font-size: 23px;
+	font-weight: bold;
+	margin-bottom: 9px;
+}
+.post_article {
+	text-align: justify;
+}
+.post_date2 {
+	float: right;
+	margin-top: 10px;
+}
+.post_wrapper {
+	margin-bottom: 15px;
+}
+.lv_cmnt{
+	width: auto;
+}
+form.lv_cmnt {
+	width: auto;
+}
+.lv_cmnt input[type="submit"]
+{
+	cursor: pointer; 
+    border-radius: 4px; 
+    	-webkit-border-radius: 4px; 
+    	-moz-border-radius: 4px; 
+    	-khtml-border-radius: 4px;
+    border: 1px solid black;	 
+    color: black; 
+   	font-size: 14px;  
+    background: #ffffff !important;
+	width: auto;
+	height: auto;
+	margin-bottom: 8px;
+	padding: 4px;
+	margin-top: 15px;
+}
+.lv_cmnt input[type="submit"]
+{
+	margin-top: 50px;
+}
+textarea {
+	outline: none;
+	-moz-appearance: none;
+	border: 1px solid #999;	
+	resize: none;
+	margin: 0 auto;
+}
+.authndata {
+	white-space: nowrap;
+	display: inline;
+}
+.auth {
+	color: #4aa852;
+	display: inline;
+	margin-bottom: -10px;
+}
+.datad {
+	font-size: 10px;
+	display: inline;
+}
+.commentaries {
+	margin-bottom: 20px;
+}
+.new_possst input[type="submit"]
+{
+	cursor: pointer; 
+    border-radius: 4px; 
+    	-webkit-border-radius: 4px; 
+    	-moz-border-radius: 4px; 
+    	-khtml-border-radius: 4px;
+    border: 1px solid black;	 
+    color: black; 
+   	font-size: 14px;  
+    background: #ffffff !important;
+	width: auto;
+	height: auto;
+	margin-bottom: 8px;
+	padding: 4px;
+}
+.new_possst textarea {
+	margin-bottom: 15px;
+}
+
+#rigblock, #lefblock {
+	width: 50%;
+}
+#rigblock {
+	float: left;
+}
+#lefblock {
+	float: right;
+}
+#rigblock input {
+	width: 160px;
+	height: 25px;
+	margin-bottom: 15px;
+}
+#lefblock input {
+	width: 160px;
+	height: 25px;
+	margin-bottom: 15px;
+}
+#lefblock input[type="submit"]
+{
+	cursor: pointer; 
+    border-radius: 4px; 
+    	-webkit-border-radius: 4px; 
+    	-moz-border-radius: 4px; 
+    	-khtml-border-radius: 4px;
+    border: 1px solid black;	 
+    color: black; 
+   	font-size: 14px;  
+    background: #ffffff !important;
+	height: auto;
+	margin-bottom: 8px;
+	padding: 4px;
+}
+#rigblock input[type="submit"]
+{
+	cursor: pointer; 
+    border-radius: 4px; 
+    	-webkit-border-radius: 4px; 
+    	-moz-border-radius: 4px; 
+    	-khtml-border-radius: 4px;
+    border: 1px solid black;	 
+    color: black; 
+   	font-size: 14px;  
+    background: #ffffff !important;
+	height: auto;
+	margin-bottom: 8px;
+	padding: 4px;
+}
+#rigblock input:focus {
+	border-left: 3px solid #4aa852e;
+	border-bottom: 2px solid #4aa852;
+}
+#lefblock input:focus {
+	border-left: 3px solid #4aa852e;
+	border-bottom: 2px solid #4aa852;
+}
+#rigblock input, #lefblock input
+{
+	border: 1px solid #cccccc;
+	/* 
+    border-radius: 5px; 
+    	-webkit-border-radius: 5px; 
+    	-moz-border-radius: 5px; 
+    	-khtml-border-radius: 5px; 
+    	*/
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+	border-left: 3px solid #4aa852;
+	padding-left: 5px;
+    color: #868686; 
+   	font-size: 14px;  
+    background: #ffffff !important; 
+	margin-bottom: 15px;
+}
+hr {
+	margin-bottom: 15px;
+}
+#fav {
+	width: 100%;
+}
+form.ght {
+	width: 100%;
+}
